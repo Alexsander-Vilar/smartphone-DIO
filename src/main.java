@@ -1,10 +1,11 @@
+import service.SmartPhoneService;
 import smartphone.Galaxy;
 import smartphone.Iphone;
 
 public class main {
     public static void main(String[] args) {
-        Iphone iphone = new Iphone();
-        Galaxy galaxy = new Galaxy();
+        SmartPhoneService iphone = new Iphone();
+        SmartPhoneService galaxy = new Galaxy();
 
         iphone.ligar();
         galaxy.atender();
