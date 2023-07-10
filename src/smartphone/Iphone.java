@@ -5,8 +5,7 @@ import service.SmartPhoneService;
 public class Iphone extends SmartPhoneService {
 
     @Override
-    public void selecionarMusica() {
-        System.out.println("SELECIONANDO FAIXA MUSICAL NO IPHONE");
+    public void selecionarMusica() { System.out.println("SELECIONANDO FAIXA MUSICAL NO IPHONE");
     }
 
     @Override
